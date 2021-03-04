@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct kilos_mvvmApp: App {
+    
+    @ObservedObject var dependencyManager = MyAppDependencyManager.shared
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AuthView()
         }
     }
 }

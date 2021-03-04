@@ -11,6 +11,7 @@
 		7C7F911225F1676B00CB9080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F911125F1676B00CB9080 /* ContentView.swift */; };
 		7C7F911425F1676C00CB9080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7F911325F1676C00CB9080 /* Assets.xcassets */; };
 		7C7F911725F1676C00CB9080 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C7F911625F1676C00CB9080 /* Preview Assets.xcassets */; };
+		7C7F912025F172AF00CB9080 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7F911F25F172AF00CB9080 /* AuthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		7C7F911325F1676C00CB9080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C7F911625F1676C00CB9080 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C7F911825F1676C00CB9080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C7F911F25F172AF00CB9080 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				7C7F911325F1676C00CB9080 /* Assets.xcassets */,
 				7C7F911825F1676C00CB9080 /* Info.plist */,
 				7C7F911525F1676C00CB9080 /* Preview Content */,
+				7C7F911F25F172AF00CB9080 /* AuthView.swift */,
 			);
 			path = "kilos-mvvm";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				7C7F911225F1676B00CB9080 /* ContentView.swift in Sources */,
 				7C7F911025F1676B00CB9080 /* kilos_mvvmApp.swift in Sources */,
+				7C7F912025F172AF00CB9080 /* AuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
